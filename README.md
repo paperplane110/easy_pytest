@@ -473,7 +473,7 @@ PASSED
 
 - [pytest_generate_tests(metafunc)](https://docs.pytest.org/en/stable/reference/reference.html#pytest.hookspec.pytest_generate_tests)：pytest hook，Generate (multiple) parametrized calls to a test function.
   - 生成多个参数化调用，将这些调用应用于测试函数
-  - 说人话就是，我们可以对‘参数化测试’进行更加定制化的配置。比如在我们的例子中，其实
+  - 说人话就是，我们可以对‘参数化测试’进行更加定制化的配置。
 - [pytest.Metafunc](https://docs.pytest.org/en/stable/reference/reference.html#metafunc): They help to inspect a test function and to generate tests according to test configuration or values specified in the class or module where a test function is defined.
   - 代表一个测试函数
   - 可以获取测试配置、测试类中的值、测试函数所属的测试模块
